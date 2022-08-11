@@ -8,8 +8,8 @@ POST - enviar/receber dados
 PUT - Atualizar dados
 DELETE - Deletar/Remover dados
  */
-
-router.get('/products', ProductsController.get)
+//informa que o parâmetro é opcional
+router.get('/products/:id?', ProductsController.get)
 
 // router.post('/products', ProductsController.post)
 
