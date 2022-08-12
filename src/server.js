@@ -9,7 +9,7 @@ const app = express()
 //conexão com o banco de dados
 db.connect()
 
-//habilita servidor para receber dados via post
+//habilita servidor para receber dados via post (json)
 app.use(express.json())
 
 //definindo as rotas
