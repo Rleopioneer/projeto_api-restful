@@ -16,6 +16,6 @@ router.post('/products', ProductsController.post)
 //id obrigatório
 router.put('/products/:id', ProductsController.put)
 
-// router.delete('/products/:id', ProductsController.delete)
+router.delete('/products/:id', ProductsController.remove)
 
 module.exports = router
